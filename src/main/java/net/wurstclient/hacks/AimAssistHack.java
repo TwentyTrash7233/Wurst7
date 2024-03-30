@@ -34,7 +34,7 @@ public final class AimAssistHack extends Hack
 	implements UpdateListener, RenderListener
 {
 	private final SliderSetting range =
-		new SliderSetting("Range", 4.5, 1, 60, 0.05, ValueDisplay.DECIMAL);
+		new SliderSetting("Range", 4.5, 1, 100, 0.05, ValueDisplay.DECIMAL);
 	
 	private final SliderSetting rotationSpeed =
 		new SliderSetting("Rotation Speed", 600, 10, 3600, 10,
